@@ -1,9 +1,8 @@
-// settings.gradle.kts
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
@@ -13,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MineBedrockMITM"
+
+rootProject.name = "NovaMITM"
 include(":app")
